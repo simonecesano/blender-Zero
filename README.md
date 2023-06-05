@@ -20,7 +20,7 @@ Broken down:
 In more detail:
 
 - you create your modal operator
-- _before that_ you one (or more) functions that
+- _before that_ you define one (or more) functions that
   1. go through the areas and regions until they find the right one
   2. when it finds the context, it calls ```INVOKE_DEFAULT``` on your modal operator 
   3. and then unregisters itself
